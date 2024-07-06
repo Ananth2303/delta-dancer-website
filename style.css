@@ -1,0 +1,87 @@
+
+/*   second form box css */
+.maindiv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./register\ back.png) no-repeat fixed;
+    overflow:none;
+    height:100vh;
+}
+.second{
+    background-color:rgb(43, 43, 43);
+    padding:20px;
+    border-radius:20px;
+    width:420px;
+}
+
+.second img{
+    height:160px;
+    padding:none;
+    margin-left:25%;
+}
+
+input{
+    background-color:white;
+    border-radius:10px;
+    padding:10px;
+    height:30px;
+    border:none;
+    width:170px;
+    margin:10px 0 0 10px;
+    font-size:16px;
+}
+#add{
+    width:372px;
+}
+select{
+    border:none;
+    height:50px;
+    width:395px;
+    border-radius:10px;
+    padding:10px;
+    margin:10px 0 0 10px;
+}
+textarea{
+    border:none;
+    padding:10px 10px;
+    border-radius:10px;
+    margin:10px 0 0 10px;
+}
+button{
+    border:none;
+    padding:10px;
+    width:100px;
+    border-radius:0 15px 15px 15px;
+    margin:10px 0 0 10px;
+    background-color:orangered;
+}
+
+@media only screen and (min-width:600px) and (max-width:1020px) {
+    .maindiv{
+        flex-direction: column;
+        padding:20px;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+    .maindiv{
+        flex-direction: column;
+        padding:20px;
+    }
+}
+    
+@media only screen and (max-width:300px){
+    .first{
+        width:300px;
+    }
+}
+
+    
+@media only screen and (max-width:300px){
+    .second{
+        width:300px;
+
+    }
+}
+    
